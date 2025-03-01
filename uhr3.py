@@ -26,7 +26,7 @@ screen_width = root.winfo_screenwidth()
 screen_height = root.winfo_screenheight()
 
 # Laden eines zufälligen Bildes aus dem Internet
-response = requests.get('https://picsum.photos/800/600')
+response = requests.get('https://picsum.photos/2048/1152')
 img_data = response.content
 image = Image.open(BytesIO(img_data))
 
